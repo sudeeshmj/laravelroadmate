@@ -36,47 +36,41 @@ Search Output: `Repsol Moto Spoty XTE 20W40 SN-50 L`
 - PHP 7.4 or higher
 - Composer
 - Laravel 8.x or higher
-- MySQL or any other database supported by Laravel
+- MySQL 
 
 ### Installation
 
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/yourusername/roadmate-machine-test.git
+    git clone https://github.com/sudeeshmj/laravelroadmate.git
     ```
 
-2. Navigate to the project directory
-
-    ```bash
-    cd roadmate-machine-test
-    ```
-
-3. Install dependencies
+2. Install dependencies
 
     ```bash
     composer install
     ```
 
-4. Copy the example environment file and configure your database
+3. Copy the example environment file and configure your database
 
     ```bash
     cp .env.example .env
     ```
 
-5. Generate the application key
+4. Generate the application key
 
     ```bash
     php artisan key:generate
     ```
 
-6. Run the database migrations and seed the database
+5. Run the database migrations
 
     ```bash
-    php artisan migrate --seed
+    php artisan migrate
     ```
 
-7. Serve the application
+6. Serve the application
 
     ```bash
     php artisan serve
@@ -84,4 +78,4 @@ Search Output: `Repsol Moto Spoty XTE 20W40 SN-50 L`
 
 ### Usage
 
-- Navigate to `http://localhost:8000/products` to
+- Navigate to `http://localhost:8000/products` 
