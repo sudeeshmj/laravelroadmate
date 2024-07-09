@@ -55,7 +55,7 @@ Search Output: `Repsol Moto Spoty XTE 20W40 SN-50 L`
 3. Copy the example environment file and configure your database
 
     ```bash
-    cp .env.example .env
+    copy .env.example .env
     ```
 
 4. Generate the application key
